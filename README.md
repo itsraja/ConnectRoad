@@ -35,10 +35,10 @@ Should return no
 4. Java 1.8
 
 # Assumptions
-City.txt file is always avilable under Resource folder.
+City.txt content file is always avilable under "Resource" folder.
 ![MS](https://user-images.githubusercontent.com/62044788/87993274-18f93580-cab8-11ea-80d3-b50a9e30c9c3.JPG)
 
-# Road Connectivity Map w.r.t sample city.txt
+## Road Connectivity Map w.r.t sample city.txt
 ![road_connect](https://user-images.githubusercontent.com/62044788/87995718-434df180-cabe-11ea-9675-e2ea4a9a5f6e.JPG)
 
 
@@ -48,10 +48,13 @@ Use Road Spring Boot Application class to launch application from eclipse.
 
 # Launch / Screenshots
 You can launch the application at http://localhost:8080 from Browser
-and modify url as below to verifiy the road connectivity.
-http://localhost:8080/connected?origin=Boston&destination=Newark
+and modify url as below to verifiy the road connectivity. http://localhost:8080/connected?origin=Boston&destination=Newark
 
 # Browser output
+
+## Testing connectivity between "Boston" and "Newark"
+http://localhost:8080/connected?origin=Boston&destination=Newark
+
 ![MSYes](https://user-images.githubusercontent.com/62044788/87994768-ca4d9a80-cabb-11ea-8ba0-3a44ad17d466.JPG)
 
 ## Visualization of connectivity
@@ -60,6 +63,8 @@ Route : Boston - New York - Atlanta - Chicago - Trenton - Albany - Detriot - Lex
 ![BtoN_Route](https://user-images.githubusercontent.com/62044788/87996188-6331e500-cabf-11ea-90d9-b66560ffadf1.JPG)
 
 
+
+## Testing connectivity between "Atlanta" and "Albany"
 http://localhost:8080/connected?origin=Atlanta&destination=Albany
 ![MSYes2](https://user-images.githubusercontent.com/62044788/87994833-ee10e080-cabb-11ea-8571-1ec8250520d1.JPG)
 

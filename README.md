@@ -43,10 +43,18 @@ City.txt file is always avilable under Resource folder.
 # Running the Application
 Use Road Spring Boot Application class to launch application from eclipse.
 
-# Launch
+# Launch / Screenshots
 You can launch the application at http://localhost:8080 from Browser
 and modify url as below to verifiy the road connectivity.
-http://localhost:8080/connected?origin=Philadelphia&destination=Albany
+http://localhost:8080/connected?origin=Boston&destination=Newark
+
+![MSYes](https://user-images.githubusercontent.com/62044788/87994768-ca4d9a80-cabb-11ea-8ba0-3a44ad17d466.JPG)
+
+http://localhost:8080/connected?origin=Atlanta&destination=Albany
+![MSYes2](https://user-images.githubusercontent.com/62044788/87994833-ee10e080-cabb-11ea-8571-1ec8250520d1.JPG)
+
+
+
 
 
 

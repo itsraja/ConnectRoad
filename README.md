@@ -39,6 +39,8 @@ City.txt file is always avilable under Resource folder.
 
 ![MS](https://user-images.githubusercontent.com/62044788/87993274-18f93580-cab8-11ea-80d3-b50a9e30c9c3.JPG)
 
+# Road Connectivity Map w.r.t sample city.txt
+
 
 # Running the Application
 Use Road Spring Boot Application class to launch application from eclipse.
@@ -49,6 +51,11 @@ and modify url as below to verifiy the road connectivity.
 http://localhost:8080/connected?origin=Boston&destination=Newark
 
 ![MSYes](https://user-images.githubusercontent.com/62044788/87994768-ca4d9a80-cabb-11ea-8ba0-3a44ad17d466.JPG)
+
+# Road Connectivity between Boston to Newwark w.r.t sample city.txt
+Route : Boston - New York - Atlanta - Chicago - Trenton - Albany - Detriot - Lexington - Newark
+![BtoN_Route](https://user-images.githubusercontent.com/62044788/87996188-6331e500-cabf-11ea-90d9-b66560ffadf1.JPG)
+
 
 http://localhost:8080/connected?origin=Atlanta&destination=Albany
 ![MSYes2](https://user-images.githubusercontent.com/62044788/87994833-ee10e080-cabb-11ea-8571-1ec8250520d1.JPG)

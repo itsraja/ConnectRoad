@@ -37,8 +37,19 @@ Should return no
 # Assumptions
 City.txt file is always avilable under Resource folder.
 
+![MS](https://user-images.githubusercontent.com/62044788/87993274-18f93580-cab8-11ea-80d3-b50a9e30c9c3.JPG)
 
-# About
+
+# Running the Application
+Use Road Spring Boot Application class to launch application from eclipse.
+
+# Launch
+You can launch the application at http://localhost:8080 from Browser
+and modify url as below to verifiy the road connectivity.
+http://localhost:8080/connected?origin=Philadelphia&destination=Albany
+
+
+
 
 
 

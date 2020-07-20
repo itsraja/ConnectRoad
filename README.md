@@ -36,10 +36,11 @@ Should return no
 
 # Assumptions
 City.txt file is always avilable under Resource folder.
-
 ![MS](https://user-images.githubusercontent.com/62044788/87993274-18f93580-cab8-11ea-80d3-b50a9e30c9c3.JPG)
 
 # Road Connectivity Map w.r.t sample city.txt
+![road_connect](https://user-images.githubusercontent.com/62044788/87995718-434df180-cabe-11ea-9675-e2ea4a9a5f6e.JPG)
+
 
 
 # Running the Application

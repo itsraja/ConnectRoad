@@ -51,9 +51,11 @@ You can launch the application at http://localhost:8080 from Browser
 and modify url as below to verifiy the road connectivity.
 http://localhost:8080/connected?origin=Boston&destination=Newark
 
+# Browser output
 ![MSYes](https://user-images.githubusercontent.com/62044788/87994768-ca4d9a80-cabb-11ea-8ba0-3a44ad17d466.JPG)
 
-# Road Connectivity between Boston to Newwark w.r.t sample city.txt
+## Visualization of connectivity
+# Road Connectivity between Boston and Newwark w.r.t sample city.txt
 Route : Boston - New York - Atlanta - Chicago - Trenton - Albany - Detriot - Lexington - Newark
 ![BtoN_Route](https://user-images.githubusercontent.com/62044788/87996188-6331e500-cabf-11ea-90d9-b66560ffadf1.JPG)
 

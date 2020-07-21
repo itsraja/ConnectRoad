@@ -35,8 +35,7 @@ Should return no
 4. Java 1.8
 
 # Assumptions
-City.txt content file is always avilable under "Resource" folder.
-![MS](https://user-images.githubusercontent.com/62044788/87993274-18f93580-cab8-11ea-80d3-b50a9e30c9c3.JPG)
+City.txt content file is always avilable under "Resource" folder. ![MS](https://user-images.githubusercontent.com/62044788/87993274-18f93580-cab8-11ea-80d3-b50a9e30c9c3.JPG)
 
 ## Road Connectivity Map w.r.t sample city.txt
 ![road_connect](https://user-images.githubusercontent.com/62044788/87995718-434df180-cabe-11ea-9675-e2ea4a9a5f6e.JPG)
@@ -52,19 +51,25 @@ and modify url as below to verifiy the road connectivity. http://localhost:8080/
 
 # Browser output
 
-## Testing connectivity between "Boston" and "Newark"
-http://localhost:8080/connected?origin=Boston&destination=Newark
+### USE CASE - 1
 
+## Testing connectivity between "Boston" and "Newark"
+Expectec Result : Yes (Citites are connected via following road connectivity) 
+Route : Boston - New York - Atlanta - Chicago - Trenton - Albany - Detriot - Lexington - Newark
+
+http://localhost:8080/connected?origin=Boston&destination=Newark
 ![MSYes](https://user-images.githubusercontent.com/62044788/87994768-ca4d9a80-cabb-11ea-8ba0-3a44ad17d466.JPG)
 
-## Visualization of connectivity
+## Visualization of connectivity between "Boston" and "Newark"
 # Road Connectivity between Boston and Newwark w.r.t sample city.txt
-Route : Boston - New York - Atlanta - Chicago - Trenton - Albany - Detriot - Lexington - Newark
 ![BtoN_Route](https://user-images.githubusercontent.com/62044788/87996188-6331e500-cabf-11ea-90d9-b66560ffadf1.JPG)
 
 
 
-## Testing connectivity between "Atlanta" and "Albany"
+### USE CASE - 2
+## Testing connectivity between "Atlanta" and "Albany" 
+Expectec Result : NO (Not connected) 
+
 http://localhost:8080/connected?origin=Atlanta&destination=Albany
 ![MSYes2](https://user-images.githubusercontent.com/62044788/87994833-ee10e080-cabb-11ea-8571-1ec8250520d1.JPG)
 

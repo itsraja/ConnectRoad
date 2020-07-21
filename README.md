@@ -37,16 +37,16 @@ Should return no
 # Assumptions
 City Test data for testing application
 
-#### Boston,New York
-#### Philadelphia,Newark
-#### Newark,Boston
-#### Trenton,Albany
-#### New York,Atlanta
-#### Atlanta,Chicago
-#### Detriot,Lexington
-#### Detriot,Albany
-#### Chicago,Mason
-#### Albany,Lexington	
+* Boston,New York
+* Philadelphia,Newark
+* Newark,Boston
+* Trenton,Albany
+* New York,Atlanta
+* Atlanta,Chicago
+* Detriot,Lexington
+* Detriot,Albany
+* Chicago,Mason
+* Albany,Lexington	
 
 City.txt content file is always avilable under "Resource" folder.
 

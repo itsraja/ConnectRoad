@@ -49,11 +49,11 @@ Chicago,Mason
 Albany,Lexington	
 
 City.txt content file is always avilable under "Resource" folder. 
-
+![city_texr_data](https://user-images.githubusercontent.com/62044788/88000823-a5adee80-cacc-11ea-8ee0-c3c44dcfb1ba.JPG)
 
 
 ## Road Connectivity Map w.r.t sample city.txt
-
+![road_connect](https://user-images.githubusercontent.com/62044788/88000812-9fb80d80-cacc-11ea-8826-b3a84b1f0ecf.JPG)
 
 
 # Running the Application
@@ -61,31 +61,46 @@ Use Road Spring Boot Application class to launch application from eclipse.
 
 # Launch / Screenshots
 You can launch the application at http://localhost:8080 from Browser
-and modify url as below to verifiy the road connectivity. http://localhost:8080/connected?origin=Boston&destination=Newark
+and modify url to check connectivity between source city and destination as
+http://localhost:8080/connected?origin=Boston&destination=Newark
 
 # Browser output
 
 ### USE CASE - 1
 
 ## Testing connectivity between "Boston" and "Newark"
-Expectec Result : Yes (Citites are connected via following road connectivity) 
-Route : Boston - New York - Atlanta - Chicago - Trenton - Albany - Detriot - Lexington - Newark
+Expectec Result : Yes 
 
-http://localhost:8080/connected?origin=Boston&destination=Newark
-![MSYes](https://user-images.githubusercontent.com/62044788/87994768-ca4d9a80-cabb-11ea-8ba0-3a44ad17d466.JPG)
+http://localhost:8080/connected?origin=Trenton&destination=Lexington
+![MSYes1](https://user-images.githubusercontent.com/62044788/88000866-bb231880-cacc-11ea-970c-852355f023fa.JPG)
 
-## Visualization of connectivity between "Boston" and "Newark"
-# Road Connectivity between Boston and Newwark w.r.t sample city.txt
-![BtoN_Route](https://user-images.githubusercontent.com/62044788/87996188-6331e500-cabf-11ea-90d9-b66560ffadf1.JPG)
-
-
+## Visualization of connectivity between "Trenton" and "Lexington"
+# Road Connectivity between Trenton and Lexington w.r.t sample city.txt
+![MSYes1_Map](https://user-images.githubusercontent.com/62044788/88000888-c413ea00-cacc-11ea-8025-5bd1a51b6c74.JPG)
 
 ### USE CASE - 2
-## Testing connectivity between "Atlanta" and "Albany" 
+## Testing connectivity between "Boston" and "Mason"
+Expectec Result : Yes 
+
+http://localhost:8080/connected?origin=Boston&destination=Mason
+![MSYes2](https://user-images.githubusercontent.com/62044788/88000901-cbd38e80-cacc-11ea-9e94-b6bf790801aa.JPG)
+
+## Visualization of connectivity between "Boston" and "Mason"
+# Road Connectivity between Boston and Mason w.r.t sample city.txt
+![MSYes2_Map](https://user-images.githubusercontent.com/62044788/88000911-d0984280-cacc-11ea-85c2-e5f1cc2ad150.JPG)
+
+
+### USE CASE - 3
+## Testing connectivity between "Boston" and "Lexington" 
 Expectec Result : NO (Not connected) 
 
-http://localhost:8080/connected?origin=Atlanta&destination=Albany
-![MSYes2](https://user-images.githubusercontent.com/62044788/87994833-ee10e080-cabb-11ea-8571-1ec8250520d1.JPG)
+
+http://localhost:8080/connected?origin=Boston&destination=Lexington
+![MSNo2](https://user-images.githubusercontent.com/62044788/88001119-5d430080-cacd-11ea-8f94-487e36d714ec.JPG)
+
+# Road Connectivity between Boston and Lexington w.r.t sample city.txt
+![MSNo2_Map](https://user-images.githubusercontent.com/62044788/88001124-6338e180-cacd-11ea-9932-2b449f9d492f.JPG)
+
 
 
 

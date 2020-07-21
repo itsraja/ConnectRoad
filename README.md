@@ -35,10 +35,24 @@ Should return no
 4. Java 1.8
 
 # Assumptions
-City.txt content file is always avilable under "Resource" folder. ![MS](https://user-images.githubusercontent.com/62044788/87993274-18f93580-cab8-11ea-80d3-b50a9e30c9c3.JPG)
+City Test data for testing application
+
+Boston,New York
+Philadelphia,Newark
+Newark,Boston
+Trenton,Albany
+New York,Atlanta
+Atlanta,Chicago
+Detriot,Lexington
+Detriot,Albany
+Chicago,Mason
+Albany,Lexington	
+
+City.txt content file is always avilable under "Resource" folder. 
+
+
 
 ## Road Connectivity Map w.r.t sample city.txt
-![road_connect](https://user-images.githubusercontent.com/62044788/87995718-434df180-cabe-11ea-9675-e2ea4a9a5f6e.JPG)
 
 
 

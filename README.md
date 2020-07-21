@@ -37,18 +37,19 @@ Should return no
 # Assumptions
 City Test data for testing application
 
-Boston,New York
-Philadelphia,Newark
-Newark,Boston
-Trenton,Albany
-New York,Atlanta
-Atlanta,Chicago
-Detriot,Lexington
-Detriot,Albany
-Chicago,Mason
-Albany,Lexington	
+#### Boston,New York
+#### Philadelphia,Newark
+#### Newark,Boston
+#### Trenton,Albany
+#### New York,Atlanta
+#### Atlanta,Chicago
+#### Detriot,Lexington
+#### Detriot,Albany
+#### Chicago,Mason
+#### Albany,Lexington	
 
-City.txt content file is always avilable under "Resource" folder. 
+City.txt content file is always avilable under "Resource" folder.
+
 ![city_texr_data](https://user-images.githubusercontent.com/62044788/88000823-a5adee80-cacc-11ea-8ee0-c3c44dcfb1ba.JPG)
 
 

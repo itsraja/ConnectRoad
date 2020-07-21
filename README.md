@@ -93,7 +93,7 @@ http://localhost:8080/connected?origin=Boston&destination=Mason
 
 ### USE CASE - 3
 ### Testing connectivity between "Boston" and "Lexington" 
-Expectec Result : NO (Not connected) 
+Expected Result : NO (Not connected) 
 
 
 http://localhost:8080/connected?origin=Boston&destination=Lexington
